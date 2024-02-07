@@ -1,14 +1,18 @@
 Exercise 1:
-Write a program that uses the #ifdef directive to check if a certain macro is defined. Depending on the result, print different messages.
+Write a program that uses the #ifdef directive to check if a certain macro is defined.
+Depending on the result, print different messages.
 
 Exercise 2:
-Create a program that uses the #ifndef directive to check if a certain macro is not defined. If it's not defined, define it and print a message.
+Create a program that uses the #ifndef directive to check if a certain macro is not defined.
+If it's not defined, define it and print a message.
 
 Exercise 3:
-Write a program that uses the #if directive to perform conditional compilation based on the value of a macro. Depending on the value, include different code blocks.
+Write a program that uses the #if directive to perform conditional compilation based on the value of a macro.
+Depending on the value, include different code blocks.
 
 Exercise 4:
-Create a program that uses the #elif directive to perform multiple conditional checks. Depending on the conditions, include different code blocks.
+Create a program that uses the #elif directive to perform multiple conditional checks.
+Depending on the conditions, include different code blocks.
 
 Exercise 5:
 Write a program that uses the #error directive to generate a compilation error with a custom error message.
@@ -27,3 +31,43 @@ Write a program that uses the #undef directive to undefine a previously defined 
 
 Exercise 10:
 Create a program that uses the #pragma once directive to ensure that a header file is only included once during compilation.
+
+Exercise 11:
+Write a program that includes a header file with a function prototype for adding two numbers.
+Implement the function in a separate source file and use it in the main program to add two numbers entered by the user.
+
+Exercise 12:
+Create a program that uses a preprocessor macro to define a constant value for PI.
+Write a function that calculates the area of a circle using the PI constant and the radius entered by the user.
+
+Exercise 13:
+Write a program that uses function pointers to implement a simple calculator.
+The program should ask the user for two numbers and an operation (+, -, *, /), and then use the appropriate function pointer to perform the calculation.
+
+Exercise 14:
+Create a program that includes a header file with multiple function prototypes.
+Implement the functions in a separate source file and use them in the main program to perform various mathematical operations, such as finding the factorial of a number or calculating the square root of a number.
+
+Exercise 15:
+Write a program that uses a preprocessor macro to define a maximum value for an array.
+Prompt the user to enter the size of the array dynamically and initialize it with random values. Write a function to find the maximum value in the array and display it.
+
+Exercise 16:
+Create a program that uses a preprocessor macro to conditionally compile different parts of the code based on a specific flag.
+For example, define a flag that, when enabled, includes debugging statements in the code.
+
+Exercise 17:
+Write a program that uses function pointers to implement a sorting algorithm.
+Prompt the user to enter an array of integers and choose a sorting algorithm (e.g., bubble sort, selection sort, insertion sort). Use the function pointer to call the selected sorting algorithm and display the sorted array.
+
+Exercise 18:
+Implement a program that uses a preprocessor directive to define a custom debugging macro.
+This macro should print the name of the file, the line number, and the variable value when invoked.
+
+Exercise 19:
+Create a program that uses function templates in C++.
+Write a template function that finds the maximum value between two arguments (of any data type) and displays the result.
+
+Exercise 20:
+Write a program that uses preprocessor directives to define conditional compilation based on the operating system.
+For example, include different libraries or implement different functions depending on whether the program is being compiled on Windows or Linux.

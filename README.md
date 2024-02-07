@@ -14,11 +14,13 @@
 Welcome to our collaborative project! This endeavor is a team effort led by our inspiring boss, Cobby (Cobby Sefah Solomon). Our journey begins with C programming, a language with a rich history, crafted by Denis Ritchie over half a century ago.
 
 For more insights, explore:
+
 - [W3Schools C Introduction](https://www.w3schools.com/c/c_intro.php?external_link=true)
 - [Programiz C Programming](https://www.programiz.com/c-programming)
 - [C Programming Language on Wikipedia](https://en.m.wikipedia.org/wiki/C_(programming_language))
 
 Check out a tutorial series here:
+
 - [YouTube C Programming Tutorial Playlist](https://youtube.com/playlist?list=PL98qAXLA6aftD9ZlnjpLhdQAOFI8xIB6e&si=MFjkwGsjxBwqaKuf)
 
 ## Meaning Of SE (Software Engineering)
@@ -38,6 +40,7 @@ Software Engineering, being a profound and expansive field, demands time, dedica
 In our software engineering game, we kick off with the intriguing realm of Preprocessors! While initially challenging to distinguish "Preprocessors" and "Macros," the clarity has emerged. The C preprocessor is a vital tool that replaces macros and includes files before code compilation. It promotes code organization and facilitates conditional compilation.
 
 For in-depth understanding, explore:
+
 - [Programiz - C Preprocessor Macros](https://www.programiz.com/c-programming/c-preprocessor-macros)
 - [TutorialsPoint - C Preprocessors](https://www.tutorialspoint.com/cprogramming/c_preprocessors.htm)
 - [GeeksforGeeks - C Preprocessors](https://www.geeksforgeeks.org/cc-preprocessors/amp/)
@@ -50,8 +53,9 @@ Here are some examples of Preprocessors:
 | **#include** | inserts or includes a (header) file i.e its contents | #include <stdio.h> or "my_header.h" |
 | **#ifdef** | see it as saying - if defined, so it checks if a macro is already defined | #ifdef MACRO_NAME|
 |**#ifndef** | (if not defined) checks if a macro isn't defined (a difference btw this and that above is while the previuos amy not require further action the current does) | #ifndef MACRO_NAME #define MACRO_NAME MACRO_VALUE|
-| ****
-
+| **#endif** | Marks the end of conditional compilation blocks | //conditional block \n #endif |
+| **#if** | Begins a conditional block based on a specified condition | #if //code block |
+| **#else** | Part of conditional compilation, used with #if | //if code block \n #else //code block |
 
 ## Updates
 

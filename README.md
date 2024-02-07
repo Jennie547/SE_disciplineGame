@@ -47,9 +47,10 @@ Here are some examples of Preprocessors:
 | Preprocessors | Their Uses | Example |
 |---------------|------------|---------|
 | **#define**   | defines a macro | #define MACRO_NAME MACRO_VALUE |
-| **#include** | inserts or includes a (header) file i.e its contents | #include <stdio.h> |
+| **#include** | inserts or includes a (header) file i.e its contents | #include <stdio.h> or "my_header.h" |
 | **#ifdef** | see it as saying - if defined, so it checks if a macro is already defined | #ifdef MACRO_NAME|
 |**#ifndef** | (if not defined) checks if a macro isn't defined (a difference btw this and that above is while the previuos amy not require further action the current does) | #ifndef MACRO_NAME #define MACRO_NAME MACRO_VALUE|
+| ****
 
 
 ## Updates

@@ -1,0 +1,29 @@
+Exercise 1:
+Write a program that uses the #ifdef directive to check if a certain macro is defined. Depending on the result, print different messages.
+
+Exercise 2:
+Create a program that uses the #ifndef directive to check if a certain macro is not defined. If it's not defined, define it and print a message.
+
+Exercise 3:
+Write a program that uses the #if directive to perform conditional compilation based on the value of a macro. Depending on the value, include different code blocks.
+
+Exercise 4:
+Create a program that uses the #elif directive to perform multiple conditional checks. Depending on the conditions, include different code blocks.
+
+Exercise 5:
+Write a program that uses the #error directive to generate a compilation error with a custom error message.
+
+Exercise 6:
+Create a program that uses the #pragma directive to enable or disable specific compiler warnings.
+
+Exercise 7:
+Write a program that uses the #line directive to change the line number and file name information reported by the compiler.
+
+Exercise 8:
+Create a program that uses the #include directive to include a header file and use the functions or variables defined in it.
+
+Exercise 9:
+Write a program that uses the #undef directive to undefine a previously defined macro and print a message to confirm it.
+
+Exercise 10:
+Create a program that uses the #pragma once directive to ensure that a header file is only included once during compilation.

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include "exercise12.h"
+#include "main.h"
 
 #define PI 3.14
 
